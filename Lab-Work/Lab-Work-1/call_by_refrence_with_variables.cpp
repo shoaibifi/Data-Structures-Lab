@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void pass_by_value(int &myInt)
+void pass_by_refrence(int &myInt)
 {
 
     myInt = myInt+1;
@@ -19,7 +19,7 @@ int main()
 
     cout<<"Value of a before calling the function is: "<<a<<endl;
 
-    pass_by_value(a);
+    pass_by_refrence(a);
 
     cout<<"Value of a after calling the function is: "<<a<<endl;
 
