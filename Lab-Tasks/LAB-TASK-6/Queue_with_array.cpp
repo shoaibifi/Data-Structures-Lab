@@ -27,7 +27,7 @@ queue :: queue()
 void queue :: print()
 {
 
-    if(front==NULL)
+    if(front==NULL)  
     {
         cout<<"Queue underflows!!! ";
         return;
